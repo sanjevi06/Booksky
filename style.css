@@ -1,1 +1,148 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'popins', sans-serif;
+    background-color: rgb(238, 203, 178);
+}
+.nav{
+    background-color: rgb(243, 103, 81);
+}
+.container{
+    padding: 10px;
+ 
+
+ 
+}
+.book-cont{
+    padding: 15px;
+    width: 25%;
+    background-color: rgb(11, 1, 8);
+    color: white;
+    margin: 30px;
+display: inline-block;
+vertical-align: top;
+    
+}
+.book-cont h2{
+    color: rgb(243, 103, 81);
+}
+.book-cont button
+{
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(243, 103, 81);
+}
+.plus{
+    border-radius: 100%;
+    background-color: rgb(243,103,81);
+    color: black;
+    font-size: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    position:fixed;
+     bottom: 30px;
+     right: 30px;
+
+}
+.overlays{
+   background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+
+}
+
+.popup{
+    background-color: rgb(249, 198, 184);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+
+    
+
+}
+#add{
+    color: white;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border:none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+#cancel{
+    color: white;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#title{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: solid black 2px;
+    font-size: 20px;
+   
+}
+
+#aut{
+     background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: solid black 2px;
+    font-size: 20px;
+}
+#des{
+    background: transparent;
+    
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    border: solid black 2px;
+    font-size: 20px; 
+}
+
+.popup input::placeholder{
+color:black;
+opacity: .7;
+}
+
+.des input::placeholder{
+color:black;
+opacity: .7;
+}
+
+#add{
+    background-color: rgb(93, 62, 62);
+}
+#cancel{
+    background-color: rgb(93, 62, 62);
+}
+
